@@ -1,0 +1,13 @@
+name: _         # Can be anything, _ by convention.
+environment:
+  sdk: ^3.5.0   # Must be ^3.5.0 or later for workspace to be allowed
+workspace:
+- pkgs/animations/     # The workspace-packages must be subdirectories
+- pkgs/connection_pkg/
+- pkgs/design_system/
+- monorepo_app
+- monorepo_app2
+
+dependencies:
+
+dev_dependencies:
